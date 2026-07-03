@@ -4,6 +4,9 @@
   "description": "Full stack e-commerce project with admin and client modules for internship submission.",
   "main": "server.js",
   "scripts": {
+    "build": "esbuild ./frontend/src/main.jsx --bundle --minify --outfile=./public/app.js --loader:.jsx=jsx",
+    "build:watch": "esbuild ./frontend/src/main.jsx --bundle --outfile=./public/app.js --loader:.jsx=jsx --watch",
+    "prestart": "npm run build",
     "start": "node server.js",
     "test": "node scripts/smoke-test.js"
   },
@@ -15,6 +18,9 @@
   "author": "Jeel Gohel",
   "license": "MIT",
   "dependencies": {
-    "mongodb": "^7.2.0"
+    "esbuild": "^0.28.1",
+    "mongodb": "^7.2.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   }
 }

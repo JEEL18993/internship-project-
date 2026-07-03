@@ -266,6 +266,126 @@ const seedProducts = [
     image: "box",
     imageUrl: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=900&q=80",
     description: "Steam iron with non-stick soleplate for neat wrinkle-free clothes."
+  },
+  {
+    id: "p-organic-honey", name: "Organic Forest Honey", category: "Grocery", price: 349, stock: 42, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=900&q=80",
+    description: "Pure natural forest honey with a rich floral taste in a reusable glass jar."
+  },
+  {
+    id: "p-almonds", name: "Premium California Almonds", category: "Grocery", price: 549, stock: 36, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=900&q=80",
+    description: "Crunchy premium almonds packed with protein for healthy everyday snacking."
+  },
+  {
+    id: "p-green-tea", name: "Himalayan Green Tea", category: "Grocery", price: 299, stock: 48, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=900&q=80",
+    description: "Refreshing whole-leaf green tea with a delicate aroma and clean finish."
+  },
+  {
+    id: "p-linen-shirt", name: "Relaxed Linen Shirt", category: "Clothes", price: 1899, stock: 24, image: "hoodie",
+    imageUrl: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=900&q=80",
+    description: "Breathable linen-blend shirt with a relaxed fit for warm everyday styling."
+  },
+  {
+    id: "p-jacket", name: "Urban Bomber Jacket", category: "Clothes", price: 2799, stock: 17, image: "hoodie",
+    imageUrl: "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=80",
+    description: "Lightweight bomber jacket with a clean silhouette and comfortable lining."
+  },
+  {
+    id: "p-kurta", name: "Cotton Festive Kurta", category: "Clothes", price: 1499, stock: 29, image: "hoodie",
+    imageUrl: "https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=900&q=80",
+    description: "Soft cotton kurta with refined detailing for celebrations and casual occasions."
+  },
+  {
+    id: "p-laptop", name: "Slim Performance Laptop", category: "Electronic Gadgets", price: 52999, stock: 9, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=80",
+    description: "Fast and lightweight laptop with a vivid display for study, work, and creativity."
+  },
+  {
+    id: "p-camera", name: "Mirrorless Travel Camera", category: "Electronic Gadgets", price: 38999, stock: 8, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=80",
+    description: "Compact mirrorless camera for sharp photos and smooth high-resolution video."
+  },
+  {
+    id: "p-keyboard", name: "Mechanical Keyboard", category: "Electronic Gadgets", price: 3299, stock: 21, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=80",
+    description: "Tactile mechanical keyboard with backlit keys and a durable compact design."
+  },
+  {
+    id: "p-sneakers", name: "Classic White Sneakers", category: "Footwear", price: 2399, stock: 31, image: "shoes",
+    imageUrl: "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=900&q=80",
+    description: "Versatile low-top sneakers with cushioned comfort and timeless minimal styling."
+  },
+  {
+    id: "p-formal-shoes", name: "Leather Formal Shoes", category: "Footwear", price: 3499, stock: 16, image: "shoes",
+    imageUrl: "https://images.unsplash.com/photo-1614252369475-531eba835eb1?auto=format&fit=crop&w=900&q=80",
+    description: "Polished formal shoes crafted for office wear, events, and special occasions."
+  },
+  {
+    id: "p-hiking-boots", name: "Trail Hiking Boots", category: "Footwear", price: 3999, stock: 14, image: "shoes",
+    imageUrl: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80",
+    description: "Rugged ankle-support boots with grippy soles for trails and outdoor adventures."
+  },
+  {
+    id: "p-air-fryer", name: "Digital Air Fryer", category: "Home Appliances", price: 6499, stock: 13, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1648621040963-75c356434fd2?auto=format&fit=crop&w=900&q=80",
+    description: "Large-capacity digital air fryer for crisp meals with less oil and easy cleanup."
+  },
+  {
+    id: "p-toaster", name: "Retro Pop-Up Toaster", category: "Home Appliances", price: 2199, stock: 22, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1585237672814-8f85a8118bf6?auto=format&fit=crop&w=900&q=80",
+    description: "Two-slice toaster with browning controls and a stylish retro-inspired finish."
+  },
+  {
+    id: "p-vacuum", name: "Cordless Vacuum Cleaner", category: "Home Appliances", price: 8999, stock: 11, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=900&q=80",
+    description: "Lightweight cordless vacuum with strong suction for quick whole-home cleaning."
+  },
+  {
+    id: "p-serum", name: "Vitamin C Face Serum", category: "Beauty", price: 699, stock: 45, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=900&q=80",
+    description: "Brightening daily serum with vitamin C and hydrating botanical ingredients."
+  },
+  {
+    id: "p-perfume", name: "Amber Bloom Eau de Parfum", category: "Beauty", price: 2499, stock: 18, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=900&q=80",
+    description: "Warm floral fragrance with amber, vanilla, and soft woody notes."
+  },
+  {
+    id: "p-lipstick", name: "Velvet Matte Lipstick", category: "Beauty", price: 599, stock: 38, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=900&q=80",
+    description: "Long-wearing matte lipstick with rich color and a comfortable velvet finish."
+  },
+  {
+    id: "p-journal", name: "Premium Leather Journal", category: "Books", price: 799, stock: 33, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=900&q=80",
+    description: "Elegant ruled journal with premium paper for ideas, plans, and daily notes."
+  },
+  {
+    id: "p-cookbook", name: "Indian Kitchen Cookbook", category: "Books", price: 649, stock: 27, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=900&q=80",
+    description: "A beautifully illustrated collection of approachable regional Indian recipes."
+  },
+  {
+    id: "p-business-book", name: "The Creative Entrepreneur", category: "Books", price: 499, stock: 35, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=900&q=80",
+    description: "Practical lessons for building ideas, leading teams, and growing with purpose."
+  },
+  {
+    id: "p-dumbbells", name: "Adjustable Dumbbell Set", category: "Sports", price: 4999, stock: 12, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80",
+    description: "Space-saving adjustable weights for strength training and home workouts."
+  },
+  {
+    id: "p-football", name: "Match Training Football", category: "Sports", price: 999, stock: 28, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1614632537190-23e4146777db?auto=format&fit=crop&w=900&q=80",
+    description: "Durable match-size football with consistent flight and excellent touch."
+  },
+  {
+    id: "p-badminton", name: "Carbon Badminton Racquet", category: "Sports", price: 1799, stock: 20, image: "box",
+    imageUrl: "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=900&q=80",
+    description: "Lightweight carbon racquet for fast handling and balanced court performance."
   }
 ];
 
@@ -414,53 +534,62 @@ function serveStatic(req, res) {
 }
 
 function layout({ title, session, body }) {
-  const isAdmin = session?.role === "admin";
-  const isClient = session?.role === "client";
+  const pageData = JSON.stringify({ title, session: session || null, body })
+    .replaceAll("<", "\\u003c")
+    .replaceAll(">", "\\u003e")
+    .replaceAll("&", "\\u0026");
   return `<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)} | ShopEase</title>
+  <meta name="description" content="ShopEase - a modern e-commerce shopping experience">
+  <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="/public/styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="/">ShopEase</a>
-    <nav>
-      ${isAdmin ? `<a href="/admin/dashboard">Dashboard</a><a href="/admin/products">Products</a><a href="/admin/orders">Orders</a>` : ""}
-      ${isClient ? `<a href="/products">Products</a><a href="/cart">Cart</a><a href="/orders">My Orders</a>` : ""}
-      ${!session ? `<a href="/login">Client Login</a><a href="/register">Register</a><a href="/admin/login">Admin</a>` : `<span class="hello">${escapeHtml(session.name || "Admin")}</span><a class="button tiny" href="/logout">Logout</a>`}
-    </nav>
-  </header>
-  <main>${body}</main>
-  <footer>Acmegrade Full Stack Web Development Internship Project</footer>
+  <div id="root"></div>
+  <noscript><main>${body}</main></noscript>
+  <script>window.__SHOP_DATA__=${pageData};</script>
+  <script src="/public/app.js" defer></script>
 </body>
 </html>`;
 }
 
-function hero(session) {
+function hero(session, products = []) {
   const cta = session?.role === "admin"
     ? `<a class="button primary" href="/admin/dashboard">Open Admin Panel</a>`
-    : `<a class="button primary" href="/products">Shop Products</a>`;
-  return `<section class="hero">
+    : session?.role === "client"
+      ? `<a class="button primary hero-cta" href="/products">Shop the collection <span>→</span></a>`
+      : `<a class="button primary hero-cta" href="/register">Start shopping <span>→</span></a>`;
+  const featured = products.slice(0, 4);
+  const categoryIcons = { Grocery: "🥑", Clothes: "👕", "Electronic Gadgets": "🎧", Footwear: "👟", "Home Appliances": "🏠", Beauty: "✨", Books: "📚", Sports: "🏋️" };
+  return `<section class="hero commerce-hero">
     <div class="hero-copy">
-      <p class="eyebrow">E-commerce project modules</p>
-      <h1>ShopEase</h1>
-      <p>A complete mini e-commerce system with admin product management, client cart, order placement, and MongoDB storage.</p>
-      <div class="actions">${cta}<a class="button" href="/admin/login">Admin Login</a></div>
+      <p class="eyebrow">New season · Better everyday</p>
+      <h1>Find your<br><em>new favorite.</em></h1>
+      <p>Thoughtfully selected essentials for your home, wardrobe, and everyday life—all in one happy place.</p>
+      <div class="actions">${cta}<a class="hero-link" href="#featured">Explore bestsellers</a></div>
+      <div class="hero-proof"><div class="avatar-stack"><i>J</i><i>A</i><i>R</i></div><span><b>4.9/5</b> from happy shoppers</span></div>
     </div>
-    <div class="hero-visual" aria-label="Product collage">
-      <div class="tile headphones"></div>
-      <div class="tile hoodie"></div>
-      <div class="tile lamp"></div>
-      <div class="tile shoes"></div>
+    <div class="hero-showcase" aria-label="Featured collection">
+      <div class="hero-photo"><img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=85" alt="Modern ShopEase collection"></div>
+      <div class="floating-card offer-card"><small>WEEKEND DROP</small><strong>Up to 30% off</strong><span>Selected favorites</span></div>
+      <div class="floating-card delivery-card"><b>✓</b><span><strong>Free delivery</strong><small>On orders above ₹999</small></span></div>
     </div>
   </section>
-  <section class="module-band">
-    <article><strong>Admin</strong><span>Login, add products, view products, delete products, view orders.</span></article>
-    <article><strong>Client</strong><span>Register, login, view products, cart, delete cart, place order.</span></article>
-  </section>`;
+  <section class="trust-strip"><article><b>↗</b><span><strong>Free shipping</strong><small>Orders over ₹999</small></span></article><article><b>↻</b><span><strong>Easy returns</strong><small>7-day return window</small></span></article><article><b>◇</b><span><strong>Secure checkout</strong><small>Your data stays safe</small></span></article><article><b>♡</b><span><strong>Curated quality</strong><small>Products you'll love</small></span></article></section>
+  <section class="home-section category-browser">
+    <div class="section-title"><div><p class="eyebrow">Shop your way</p><h2>Browse categories</h2></div><a href="/products">View all <span>→</span></a></div>
+    <div class="category-grid">${categories.map((category) => `<a href="/products?q=${encodeURIComponent(category)}"><span>${categoryIcons[category] || "✦"}</span><strong>${escapeHtml(category)}</strong><small>Explore collection</small></a>`).join("")}</div>
+  </section>
+  <section class="home-section featured-home" id="featured">
+    <div class="section-title"><div><p class="eyebrow">Customer favorites</p><h2>Trending right now</h2></div><a href="/products">Shop all products <span>→</span></a></div>
+    <div class="product-grid home-products">${featured.map((product, index) => `<article class="product-card"><div class="product-badge">${index === 0 ? "Bestseller" : index === 1 ? "New" : "Popular"}</div>${productArt(product)}<div class="product-info"><div class="meta-row"><span>${escapeHtml(product.category)}</span><span>★ 4.${9-index}</span></div><h3>${escapeHtml(product.name)}</h3><p>${escapeHtml(product.description)}</p><div class="price-row"><strong>${money(product.price)}</strong><a class="button primary small" href="${session?.role === "client" ? "/products" : "/login"}">${session?.role === "client" ? "View product" : "Shop now"}</a></div></div></article>`).join("")}</div>
+  </section>
+  <section class="promo-banner"><div><p>LIMITED-TIME EDIT</p><h2>Good things for<br>everyday living.</h2><a class="button" href="/products">Discover the collection →</a></div><div class="promo-image"><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=85" alt="ShopEase home collection"></div></section>
+  <section class="newsletter"><p class="eyebrow">The good list</p><h2>Fresh finds, straight to your inbox.</h2><p>Be first to know about new arrivals, special offers, and the things we're currently loving.</p><form onsubmit="return false"><input type="email" placeholder="Your email address" aria-label="Email address"><button class="button primary" type="submit">Join the list</button></form></section>`;
 }
 
 function productArt(product) {
@@ -791,7 +920,7 @@ async function router(req, res) {
 
     const store = await getStoreSnapshot();
 
-    if (pathname === "/") return send(res, layout({ title: "Home", session, body: hero(session) }));
+    if (pathname === "/") return send(res, layout({ title: "Home", session, body: hero(session, store.products) }));
     if (pathname === "/logout") {
       clearSession(req, res);
       return redirect(res, "/");
