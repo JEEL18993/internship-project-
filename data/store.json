@@ -1,0 +1,43 @@
+{
+  "users": [],
+  "products": [
+    {
+      "id": "8191e96d4d491165",
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 2499,
+      "stock": 18,
+      "image": "headphones",
+      "description": "Comfortable Bluetooth headphones with clear sound and long battery life."
+    },
+    {
+      "id": "0b9cfde397e63e13",
+      "name": "Classic Hoodie",
+      "category": "Fashion",
+      "price": 1299,
+      "stock": 32,
+      "image": "hoodie",
+      "description": "Soft cotton hoodie for daily wear, available in multiple sizes."
+    },
+    {
+      "id": "d2fd1c24a07f905b",
+      "name": "Desk Lamp",
+      "category": "Home",
+      "price": 899,
+      "stock": 24,
+      "image": "lamp",
+      "description": "Adjustable LED desk lamp with warm and cool light modes."
+    },
+    {
+      "id": "4ae4d7ceaccc87f0",
+      "name": "Training Shoes",
+      "category": "Sports",
+      "price": 2199,
+      "stock": 14,
+      "image": "shoes",
+      "description": "Lightweight shoes made for walking, running, and gym training."
+    }
+  ],
+  "carts": {},
+  "orders": []
+}

@@ -1,0 +1,20 @@
+{
+  "name": "acmegrade-ecommerce-project",
+  "version": "1.0.0",
+  "description": "Full stack e-commerce project with admin and client modules for internship submission.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "full-stack",
+    "nodejs"
+  ],
+  "author": "Jeel Gohel",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^7.2.0"
+  }
+}
